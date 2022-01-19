@@ -14,3 +14,13 @@ fruit:
       color: red
     - name: water melon
       color: green
+
+spring:
+  h2:
+    console:
+      path: /h2-test
+      enabled: true
+datasource:
+  url: jdbc:h2:mem:testdb
+
+

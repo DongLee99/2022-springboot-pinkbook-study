@@ -9,7 +9,7 @@ import java.util.Map;
 
 @Data
 @Component
-@ConfigurationProperties("fruit");
+@ConfigurationProperties(prefix = "fruit")
 public class FruitProperty {
-    private List<Map> list;
+    private List<Fruit> list;
 }
